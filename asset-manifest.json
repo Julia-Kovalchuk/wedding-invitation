@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/wedding-invitation/static/js/main.512c9191.js",
+    "static/media/mainBackground.png": "/wedding-invitation/static/media/mainBackground.b6c343081a8b2b5c777c.png",
+    "static/media/descriptionBackground.png": "/wedding-invitation/static/media/descriptionBackground.2402b5118b785ec44665.png",
+    "static/media/mainBackgroundDesktop.png": "/wedding-invitation/static/media/mainBackgroundDesktop.475b6b971f9a47ffa251.png",
+    "static/media/Scriptorama.woff": "/wedding-invitation/static/media/Scriptorama.5d6428b4a17213e5b062.woff",
+    "static/media/CalmExtra.woff": "/wedding-invitation/static/media/CalmExtra.2feb22a2c45225709cad.woff",
+    "static/media/textSeparator.png": "/wedding-invitation/static/media/textSeparator.a3009e6cb54b8c29ab0e.png",
+    "static/media/rings.png": "/wedding-invitation/static/media/rings.da812f393a41f05b1845.png",
+    "static/media/dinner.png": "/wedding-invitation/static/media/dinner.b1d9fa41c385e50d51fc.png",
+    "static/media/location.png": "/wedding-invitation/static/media/location.9de794c2a101f96604d3.png",
+    "static/media/buffet.png": "/wedding-invitation/static/media/buffet.e27c5559a98379e98aca.png",
+    "static/media/dance.png": "/wedding-invitation/static/media/dance.e6b55f6c9f900b264262.png",
+    "static/media/Tahoma.woff2": "/wedding-invitation/static/media/Tahoma.fadd85b46453dba3dc8c.woff2",
+    "index.html": "/wedding-invitation/index.html",
+    "main.512c9191.js.map": "/wedding-invitation/static/js/main.512c9191.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.512c9191.js"
+  ]
+}
