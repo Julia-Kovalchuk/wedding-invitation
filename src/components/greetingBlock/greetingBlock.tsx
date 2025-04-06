@@ -3,11 +3,30 @@ import React from "react";
 import { StyledGreetingBlock, Time } from "./styles";
 import { InfoText, Title } from "ui/typography";
 import { Calendar } from "../index";
+import { getGreeting } from "utils/formatGreeting";
 
 export const GreetingBlock = () => {
+  const params = new URLSearchParams(window.location.search);
+  const guestName = params.get("to");
+  const gender = params.get("gender");
+  const greetingText = getGreeting(gender);
+
+  const isPlural = gender === "plural";
+
   return (
     <StyledGreetingBlock>
-      <Title>Дорогой гость!</Title>
+      <Title>
+        {greetingText}{" "}
+        {isPlural ? (
+          <>
+            <br />
+            <span>{guestName}</span>
+          </>
+        ) : (
+          guestName
+        )}
+        !
+      </Title>
       <InfoText>
         Мы рады пригласить вас на самый важный день в нашей жизни – нашу
         свадьбу!
