@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/wedding-invitation/static/js/main.28dbdb5e.js",
+    "main.js": "/wedding-invitation/static/js/main.84907795.js",
     "static/media/mainBackground.png": "/wedding-invitation/static/media/mainBackground.b6c343081a8b2b5c777c.png",
     "static/media/descriptionBackground.png": "/wedding-invitation/static/media/descriptionBackground.2402b5118b785ec44665.png",
     "static/media/mainBackgroundDesktop.png": "/wedding-invitation/static/media/mainBackgroundDesktop.475b6b971f9a47ffa251.png",
@@ -14,9 +14,9 @@
     "static/media/dance.png": "/wedding-invitation/static/media/dance.e6b55f6c9f900b264262.png",
     "static/media/Tahoma.woff2": "/wedding-invitation/static/media/Tahoma.fadd85b46453dba3dc8c.woff2",
     "index.html": "/wedding-invitation/index.html",
-    "main.28dbdb5e.js.map": "/wedding-invitation/static/js/main.28dbdb5e.js.map"
+    "main.84907795.js.map": "/wedding-invitation/static/js/main.84907795.js.map"
   },
   "entrypoints": [
-    "static/js/main.28dbdb5e.js"
+    "static/js/main.84907795.js"
   ]
 }
