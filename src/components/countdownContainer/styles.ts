@@ -19,7 +19,7 @@ const TimerItem = styled(ContainerFlexColumnCenter)`
 `;
 
 const Amount = styled(motion.span)`
-  font-family: "Patriciana";
+  font-family: "Scriptorama";
   font-size: 30px;
 `;
 

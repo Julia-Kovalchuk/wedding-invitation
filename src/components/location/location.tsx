@@ -9,7 +9,7 @@ import locationImage from "../../assets/images/location.png";
 export const Location = () => {
   const { location } = useWedding();
   const onOpenMap = () => {
-    window.open("https://www.google.com/maps?q=53.994271,25.648967", "_blank");
+    window.open("https://www.google.com/maps?q=53.994047,25.649508", "_blank");
   };
 
   return (

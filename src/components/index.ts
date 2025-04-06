@@ -9,6 +9,7 @@ import { GreetingBlock } from "./greetingBlock/greetingBlock";
 import { Contacts } from "./contacts/contacts";
 import { Calendar } from "./calendar/calendar";
 import { CountdownTimer } from "./countdownContainer/countdownContainer";
+import { Loader } from "./loader/loader";
 
 export { Button };
 export { MainInvitationPage };
@@ -21,3 +22,4 @@ export { GreetingBlock };
 export { Contacts };
 export { Calendar };
 export { CountdownTimer };
+export { Loader };

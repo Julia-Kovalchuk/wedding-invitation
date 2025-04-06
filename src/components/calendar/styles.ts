@@ -37,8 +37,8 @@ const HeartSVG = styled.svg`
   position: absolute;
   width: 36px;
   height: 36px;
-  bottom: 0px;
-  right: -2px;
+  bottom: -2px;
+  right: -3px;
   stroke: ${(props) => props.theme.colors.danger};
   fill: transparent;
   stroke-width: 4;

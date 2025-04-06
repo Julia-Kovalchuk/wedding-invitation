@@ -74,6 +74,10 @@ const NamesBlock = styled(motion.div).attrs(() => ({
     margin: 20px 0 60px;
   }
 
+  ${Media.XXSH} {
+    margin: 10px 0 50px;
+  }
+
   ${Media.SMW} {
     width: auto;
     justify-content: center;
@@ -100,6 +104,10 @@ const Name = styled(motion.div).attrs(() => ({
 
   ${Media.XSH} {
     font-size: 55px;
+  }
+
+  ${Media.XXSH} {
+    font-size: 50px;
   }
 `;
 
@@ -143,6 +151,10 @@ const TextSeparator = styled.div`
 
   ${Media.SMH} {
     height: 40px;
+  }
+
+  ${Media.XXSH} {
+    height: 35px;
   }
 `;
 
