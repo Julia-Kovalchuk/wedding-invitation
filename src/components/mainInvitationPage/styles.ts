@@ -50,8 +50,12 @@ const InvitationText = styled(motion.div).attrs(() => ({
   }
 
   ${Media.XSH} {
-    width: 130px;
+    width: 140px;
     font-size: 14px;
+  }
+
+  ${Media.XSW} {
+    font-size: 18px;
   }
 `;
 
@@ -82,6 +86,10 @@ const NamesBlock = styled(motion.div).attrs(() => ({
     width: auto;
     justify-content: center;
     margin: 20px 0 90px;
+  }
+
+  ${Media.XSW} {
+    margin: 15px 0 60px;
   }
 `;
 
