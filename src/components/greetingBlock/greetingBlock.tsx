@@ -11,7 +11,11 @@ export const GreetingBlock = () => {
   const guestParam = params.get("to");
   const gender = params.get("gender");
   const greetingText = getGreeting(gender);
-  const nameList = guestParam ? guestParam.split(",") : [];
+  const nameList = guestParam
+    ? decodeURIComponent(guestParam)
+        .split(";")
+        .map((name) => name.trim())
+    : [];
   const formattedNames = formatNames(nameList);
 
   const isPlural = gender === "plural";
