@@ -8,7 +8,7 @@ import { formatNames } from "utils/formatNames";
 
 export const GreetingBlock = () => {
   const params = new URLSearchParams(window.location.search);
-  const guestParam = params.get("to"); // имена через запятую
+  const guestParam = params.get("to");
   const gender = params.get("gender");
   const greetingText = getGreeting(gender);
   const nameList = guestParam ? guestParam.split(",") : [];

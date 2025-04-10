@@ -39,7 +39,7 @@ export const Provider: React.FC<{ children: React.ReactNode }> = ({
     groom: "Влад",
     bride: "Юля",
     weddingDate: "2025-08-01T16:00:00+03:00",
-    confirmationDate: "2025-06-01T16:00:00+03:00",
+    confirmationDate: "2025-07-01T16:00:00+03:00",
     timing: {
       weddingTime: "16:00",
       events: [
