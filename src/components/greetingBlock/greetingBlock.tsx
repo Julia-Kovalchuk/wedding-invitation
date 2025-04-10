@@ -1,15 +1,18 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
-import { StyledGreetingBlock, Time } from "./styles";
+import { StyledGreetingBlock } from "./styles";
 import { InfoText, Title } from "ui/typography";
 import { Calendar } from "../index";
 import { getGreeting } from "utils/formatGreeting";
+import { formatNames } from "utils/formatNames";
 
 export const GreetingBlock = () => {
   const params = new URLSearchParams(window.location.search);
-  const guestName = params.get("to");
+  const guestParam = params.get("to"); // имена через запятую
   const gender = params.get("gender");
   const greetingText = getGreeting(gender);
+  const nameList = guestParam ? guestParam.split(",") : [];
+  const formattedNames = formatNames(nameList);
 
   const isPlural = gender === "plural";
 
@@ -20,10 +23,10 @@ export const GreetingBlock = () => {
         {isPlural ? (
           <>
             <br />
-            <span>{guestName}</span>
+            <span>{formattedNames}</span>
           </>
         ) : (
-          guestName
+          formattedNames
         )}
         !
       </Title>

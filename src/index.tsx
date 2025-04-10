@@ -7,6 +7,7 @@ import { DescriptionPage, Loader, MainInvitationPage } from "./components";
 import { theme } from "./theme/theme";
 import mainBackground from "./assets/images/mainBackground.png";
 import textSeparator from "./assets/images/textSeparator.png";
+import { BrowserRouter } from "react-router-dom";
 
 const App = () => {
   const [isReady, setIsReady] = useState(false);
@@ -53,8 +54,10 @@ root.render(
   <React.StrictMode>
     <Provider>
       <ThemeProvider theme={theme}>
-        <GlobalStyle />
-        <App />
+        <BrowserRouter>
+          <GlobalStyle />
+          <App />
+        </BrowserRouter>
       </ThemeProvider>
     </Provider>
   </React.StrictMode>
